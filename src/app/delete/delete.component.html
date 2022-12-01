@@ -1,0 +1,21 @@
+<p class="h5 p">Delete Employee</p>
+<div class="tpad">
+    <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">Employee Name :</label>
+        <input type="text" disabled="true" class="form-control" [(ngModel)]="employees.name" id="formGroupExampleInput" placeholder="enter employee name">
+    </div>
+    <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label">Department :</label>
+        <input type="text" disabled="true" class="form-control" [(ngModel)]="employees.department" id="formGroupExampleInput2" placeholder="enter employee department">
+    </div>
+    <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label">Salary :</label>
+        <input type="text" disabled="true" class="form-control" [(ngModel)]="employees.salary" id="formGroupExampleInput2" placeholder="salary">
+    </div>
+    <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label">City :</label>
+        <input type="text" disabled="true" class="form-control" [(ngModel)]="employees.city" id="formGroupExampleInput2" placeholder="city">
+    </div>
+    <button type="button" (click)="DeleteEmployee(employees)" class="btn btn-danger btn-s">Delete</button>
+    <button type="button" class="btn btn-secondary btn-s" routerLink="/home">Back to Home</button>
+</div>

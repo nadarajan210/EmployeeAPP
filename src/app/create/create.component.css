@@ -1,0 +1,16 @@
+.p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.tpad {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.btn-s {
+    margin-left: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
